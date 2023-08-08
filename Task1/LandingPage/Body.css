@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body-end {
+  background-color: lightblue;
+  padding: 150px 0;
+  font-size: 30px;
+}
+
+.body-end-text h4 {
+  font-size: 20px;
+}
+.body-end-btn {
+  padding: 15px 25px;
+  color: white;
+  border-radius: 15px;
+  font-size: 15px;
+  background: rgb(50, 147, 180);
+  border: none;
+}
+
+.best-sellers {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+.product-box {
+  background-color: beige;
+  width: 900px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px;
+  padding: 15px 15px;
+  justify-content: center;
+  grid-gap: 25px 25px;
+}
+
+.items1 {
+  background-image: url("../Assets/cookies.jpeg");
+  background-size: cover;
+}
+.items2 {
+  background-image: url("../Assets/cake.webp");
+  background-size: cover;
+}
+.items3 {
+  background-image: url("../Assets/donuts.webp");
+  background-size: cover;
+}
+.items4 {
+  background-image: url("../Assets/pancake.jpeg");
+  background-size: cover;
+}
+.items5 {
+  background-image: url("../Assets/croissant.jpeg");
+  background-size: cover;
+}
+.items6 {
+  background-image: url("../Assets/pie.jpeg");
+  background-size: cover;
+}
+.product-title {
+  font-size: 25px;
+  padding: 10px;
+}
+/*
+.overlay {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  background-color: transparent
+  display: block;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+} */
+.image-text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+.section {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 60vh;
+
+  background-color: #ddd;
+}
+.about-container {
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding-top: 90px;
+}
+.content-section {
+  float: left;
+  width: 55%;
+}
+.image-section {
+  float: right;
+  width: 40%;
+}
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.content-section .content h3 {
+  color: #5d5d5d;
+}
+.content-section .content p {
+  margin-top: 10px;
+  font-size: 15px;
+
+  line-height: 1.5;
+}
+.content-section .about-btn a {
+  background-color: #3d3d3d;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+.content-section .about-btn {
+  margin-top: 30px;
+}
